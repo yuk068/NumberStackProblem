@@ -1,0 +1,22 @@
+NumberStackProblem
+Given n = 3, we have 3 randomized vertical stacks
+with a single empty node on top of all of them, detonated as "_":
+_ _ _
+3 2 1
+2 1 3
+1 2 3
+
+You're able to move the very top element of a stack to any other available stack:
+_ _ 3
+_ 2 1
+2 1 3
+1 2 3
+
+The very last number of the stacks is the base value and cannot be moved, the goal is to sort the stacks in a manner so that they only contain values equal to their respective base value:
+_ _ _
+1 2 3
+1 2 3
+1 2 3
+
+With n >= 3, this matrix will have a size of n + 1 x n,
+Can this problem always be solved with n >= 3 ? If yes, implement an algorithm to solve this problem with n >= 3 (Some what similar to Tower of Hanoi).
