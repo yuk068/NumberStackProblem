@@ -21,5 +21,5 @@ _ _ _
 With n >= 3, this matrix will have a size of n + 1 x n,
 Can this problem always be solved with n >= 3 ? If yes, implement an algorithm to solve this problem with n >= 3.
 
-You can try solving the problem by running run.bat in /app
+You can review the concrete mechanic by running run.bat in /app
 You can review the source code implementation for the program in /src
